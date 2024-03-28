@@ -1,0 +1,470 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: solid red; */
+}
+
+@font-face {
+    font-family: primeira;
+    src: url(/misslena/Misslena.ttf);
+}
+
+@font-face {
+    font-family: segunda;
+    src: url(/caviar_dreams/CaviarDreams.ttf);
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #4a42779b;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+nav {
+    text-indent: 3%;
+}
+
+a {
+    font-size: 25px;
+    margin-left: 1.5%;
+    color: #B8E89C;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 200;
+    font-family: primeira;
+    font-size: 110px;
+    margin-top: 3%;
+    margin-left: 9%;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px rgb(0, 0, 0);
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 30px;
+    margin-top: 1.3%;
+    margin-left: 45%;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 3px black;
+    font-family: segunda;
+}
+
+h3 {
+    font-size: 40px;
+    font-family: segunda;
+    text-shadow: 2px 2px 3px rgb(52, 52, 52);
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 10px;
+
+}
+
+p {
+    font-size: 40px;
+    margin-top: 5%;
+    margin-left: 10%;
+    font-family: segunda;
+    color: rgb(0, 0, 0);
+}
+
+.textos p {
+    width: 10px;
+}
+
+.img1 {
+    width: 50%;
+    animation: img 3s alternate infinite linear;
+}
+
+
+.animation {
+    margin-left: 7%;
+}
+
+
+@keyframes img {
+    0% {
+        transform: translateY(0%);
+    }
+
+    50% {
+        transform: translateY(-10%);
+    }
+
+    100% {
+        transform: translateY(1%);
+    }
+}
+
+.container {
+    display: flex;
+    margin-top: 5%;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.cards {
+    display: flex;
+}
+
+.card2 {
+    width: 90%;
+    height: 400px;
+    background-color: #90b67a;
+    border-radius: 5%;
+    margin-left: 3%;
+}
+
+.kard2 {
+    width: 100%;
+    background-color: #FFC1C1;
+    border-radius: 5%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.sobre {
+    font-family: primeira;
+    font-size: 50px;
+    width: 70%;
+    color: white;
+}
+
+.kard2 div {
+    height: 97%;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.kard2 .hs {
+    border-left: 1px solid black;
+}
+
+.KardP {
+    display: flex;
+}
+
+.card2 .p2 {
+    width: 70%;
+    font-size: 20px;
+    text-align: left;
+    font-family: segunda;
+    border-radius: 0%;
+    margin-top: 70px;
+}
+
+ul {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    font-family: segunda;
+}
+
+.kard2 .imgh {
+    width: 100px;
+    margin-left: 10%;
+}
+
+.kard2 .imgc {
+    width: 72px;
+    margin-top: 10%;
+}
+
+.kard2 .imgj {
+    width: 60%;
+    margin-left: 17%;
+}
+
+.KardP img {
+    margin-left: 15%;
+}
+
+
+.Cproj {
+    display: flex;
+}
+
+.proj1 {
+    width: 25%;
+    height: 160px;
+    border-radius: 30px;
+    margin-top: 5%;
+    margin-left: 2%;
+
+}
+
+.Cproj .grande1 {
+    width: 40%;
+    background: #FFC1C1;
+}
+
+.proj2 {
+    width: 25%;
+    height: 160px;
+    border-radius: 30px;
+    background: rgb(116, 105, 182);
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+
+.Cproj .grande2 {
+    width: 40%;
+}
+
+.proj3 {
+    width: 25%;
+    height: 160px;
+    border-radius: 30px;
+    background: #90b67a;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 10%;
+}
+
+.Cproj .grande3 {
+    width: 40%;
+}
+
+.verde {
+    background: #90b67a;
+}
+
+.roxo {
+    background: #7469B6;
+}
+
+.projetos {
+    font-size: 70px;
+    font-family: primeira;
+    margin-top: 9%;
+    margin-left: 15%;
+    color: white;
+}
+
+.roxo p {
+    color: white;
+    font-size: 30px;
+    margin-top: 20%;
+    margin-left: 33%;
+}
+
+.verde p {
+    color: #266041;
+    font-size: 30px;
+    margin-top: 25%;
+    margin-left: 25%;
+}
+
+.grande2 p {
+    font-size: 30px;
+    margin-top: 13%;
+    margin-left: 25%;
+}
+
+
+.grande3 p {
+    font-size: 30px;
+    margin-top: 15%;
+    margin-left: 30%;
+}
+
+.contato {
+    width: 60%;
+    height: 400px;
+    bottom: 10%;
+    border-radius: 30px;
+    background: #FFC1C1;
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.entre {
+    width: 30%;
+    margin-top: 20%;
+}
+
+.cont {
+    width: 100%;
+    /* height: 90%; */
+    /* margin-bottom: 10%; */
+}
+
+.inputN {
+    width: 40%;
+    height: 15%;
+    margin-left: 50%;
+    border-radius: 30px;
+}
+
+.inputE {
+    width: 40%;
+    height: 15%;
+    margin-left: 50%;
+    margin-top: 2%;
+    border-radius: 30px;
+}
+
+.cMensagem {
+    width: 40%;
+    height: 30%;
+    margin-left: 50%;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+
+.enviar {
+    width: 15%;
+    height: 7%;
+    margin-left: 63%;
+}
+
+footer {
+    background-color: #90b67a;
+    height: 30px;
+}
+
+h4 {
+    text-align: left;
+    font-size: 20px;
+    font-family: segunda;
+}
+
+.p-footer {
+    font-size: 15px;
+    margin-left: 43%;
+}
+
+@media (max-width:600px) {
+    a {
+        font-size: 15px;
+        color: #B8E89C;
+        text-decoration: none;
+    }
+
+    h1 {
+        font-weight: 200;
+        font-family: primeira;
+        font-size: 25px;
+        margin-top: 30%;
+        margin-left: 9%;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+    }
+
+    h2 {
+        font-weight: 100;
+        font-size: 15px;
+        margin-top: 1.3%;
+        margin-left: 35%;
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 3px black;
+        font-family: segunda;
+    }
+
+
+    h3 {
+        font-size: 15px;
+        font-family: segunda;
+        text-shadow: 2px 2px 3px rgb(52, 52, 52);
+        margin-left: 10%;
+        margin-top: 5%;
+        width: 10px;
+    }
+
+    .img1 {
+        width: 60%;
+        animation: img 3s alternate infinite linear;
+        margin-top: 10%;
+    }
+
+    .card2 .p2 {
+        width: 70%;
+        font-size: 15px;
+        text-align: left;
+        font-family: segunda;
+        border-radius: 0%;
+        margin-top: 20px;
+    }
+
+    .card2 {
+        width: 90%;
+        height: 300px;
+        background-color: #90b67a;
+        border-radius: 5%;
+        margin-left: 3%;
+    }
+
+    .kard2 div {
+        height: 97%;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .proj1 {
+        width: 25%;
+        height: 50px;
+        border-radius: 30px;
+        margin-top: 5%;
+        margin-left: 2%;
+    }
+
+
+    .proj2 {
+        width: 25%;
+        height: 50px;
+        border-radius: 30px;
+        background: rgb(116, 105, 182);
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+
+    .proj3 {
+        width: 25%;
+        height: 50px;
+        border-radius: 30px;
+        background: #90b67a;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 10%;
+    }
+
+    .roxo p {
+        color: white;
+        font-size: 10px;
+        margin-top: 15%;
+        margin-left: 33%;
+    }
+
+    .p-footer {
+        font-size: 10px;
+        margin-left: 30%;
+    }
+
+
+}
